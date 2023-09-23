@@ -1,0 +1,20 @@
+.background_color {
+    background-color: #FFBB5C;
+}
+.h1_style{
+    margin-top: 20px;
+    color: #C63D2F;    
+    
+    text-align: center;
+}
+.h2_style {
+    margin-top: 10px;
+    color: #C63D2F; 
+    text-align: center;
+}
+.text_style {
+    
+    color: #C63D2F; 
+    margin-left: 420px;
+    text-align: left;
+}
