@@ -4,7 +4,6 @@
 .h1_style{
     margin-top: 20px;
     color: #C63D2F;    
-    
     text-align: center;
 }
 .h2_style {
@@ -13,8 +12,18 @@
     text-align: center;
 }
 .text_style {
-    
     color: #C63D2F; 
-    margin-left: 420px;
-    text-align: left;
+    text-align: center;
+}
+li {
+    /*list-style-type: none;*/
+    text-align: center;
+    color: #C63D2F;
+} 
+ul {
+    margin-left: auto; 
+    padding-left: 0;
+}
+a {
+    color: #C63D2F;
 }
