@@ -1,0 +1,29 @@
+.background_color {
+    background-color: #FFBB5C;
+}
+.h1_style{
+    color: #C63D2F;    
+    text-align: center;
+    margin-bottom: 20px;
+}
+.h2_style {
+    
+    color: #C63D2F; 
+    text-align: center;
+}
+.text_style {
+    color: #C63D2F; 
+    text-align: center;
+}
+li {
+    list-style-type: none;
+    text-align: center;
+    color: #C63D2F;
+} 
+ul {
+    margin-left: auto; 
+    padding-left: 20px;
+}
+a {
+    color: #C63D2F;
+}
