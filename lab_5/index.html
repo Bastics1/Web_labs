@@ -67,61 +67,90 @@
   <!-- Testimonials -->
 
   <section id="testimonials">
-
-    <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-    <img src="images/dog-img.jpg" alt="dog-profile">
-    <em>Pebbles, New York</em>
-
-    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
-
+    <div id="carouselTestimonials" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+          <img src="images/dog-img.jpg" class="testimonial-image">
+          <div class="carousel-caption">
+          </div>
+          <em>Pebbles, New York</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+          <img src="images/lady-img.jpg" class="testimonial-image">
+          <em>Beverly, Illinois</em>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselTestimonials" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Предыдущий</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselTestimonials"  data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Следующий</span>
+      </button>
+    </div>
   </section>
-
+  
 
   <!-- Press -->
 
   <section id="press">
-    <img src="images/techcrunch.png" alt="tc-logo">
-    <img src="images/tnw.png" alt="tnw-logo">
-    <img src="images/bizinsider.png" alt="biz-insider-logo">
-    <img src="images/mashable.png" alt="mashable-logo">
+    <img src="images/techcrunch.png" alt="tc-logo" class="press-logo">
+    <img src="images/tnw.png" alt="tnw-logo" class="press-logo">
+    <img src="images/bizinsider.png" alt="biz-insider-logo" class="press-logo">
+    <img src="images/mashable.png" alt="mashable-logo" class="press-logo">
 
   </section>
 
-
+  
   <!-- Pricing -->
-
+  
   <section id="pricing">
-
-    <h2>A Plan for Every Dog's Needs</h2>
-    <p>Simple and affordable price plans for your and your dog.</p>
-
-
-    <h3>Chihuahua</h3>
-    <h2>Free</h2>
-    <p>5 Matches Per Day</p>
-    <p>10 Messages Per Day</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Labrador</h3>
-    <h2>$49 / mo</h2>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Mastiff</h3>
-    <h2>$99 / mo</h2>
-    <p>Pirority Listing</p>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
+  <h2>A Plan for Every Dog's Needs</h2>
+  <p>Simple and affordable price plans for your and your dog.</p>
+  <div class="card-deck">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h3 class="card-title">Chihuahua</h5>
+            <h2 class="card-text">Free</h2>
+            <p class="card-text">5 Matches Per Day</p>
+            <p class="card-text">10 Messages Per Day</p>
+            <p class="card-text">Unlimited App Usage</p>
+            <a href="#" class="btn btn-light border-dark">Sign Up</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h3 class="card-title">Labrador</h5>
+            <h2 class="card-text">$49 / mo</h2>
+            <p class="card-text">Unlimited Matches</p>
+            <p class="card-text">Unlimited Messages</p>
+            <p class="card-text">Unlimited App Usage</p>
+            <a href="#" class="btn btn-dark border-dark">Sign Up</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h3 class="card-title">Mastiff</h5>
+            <h2 class="card-text">$99 / mo</h2>
+            <p class="card-text">Priority Listing</p>
+            <p class="card-text">Unlimited Matches</p>
+            <p class="card-text">Unlimited Messages</p>
+            <p class="card-text">Unlimited App Usage</p>
+            <a href="#" class="btn btn-dark border-dark">Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   </section>
 
 

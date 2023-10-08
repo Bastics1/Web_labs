@@ -30,3 +30,49 @@ body{
     width: 60%;
     transform: rotate(25deg);
 }
+
+#testimonials {
+    text-align: center;
+    background: #ef8172;
+    color: #fff;
+    align-items: center;
+}
+
+h2 {
+    font: 3rem 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+.testimonial-container {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+.testimonial-container h2 {
+    margin-right: 20px;
+}
+
+#press {
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing {
+    text-align: center;
+    align-items: center;
+}
+.card-deck{
+    text-align: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
